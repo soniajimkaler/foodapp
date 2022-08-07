@@ -1,0 +1,514 @@
+
+
+
+/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+
+/* Style to create a fluid image */
+/* img {
+	max-width: 100%;
+	max-height: 50%;
+} */
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+body{
+	margin: 0px;
+	font-family: cursive;
+}
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-style:italic;
+	margin-top: 0.2em;
+	color: #cf3f34;
+	text-align: center;
+}
+logo_link:after
+{
+    --direction: right;
+	display: block;
+    content: '';
+    height: 10px;
+
+}
+logo_link:before
+{
+	--direction: right;
+
+
+
+}
+
+footer {
+	background-image:  url("images/banner.jpg");
+	background-color:  #336699;
+	font-size: 0.90em;
+	text-align: left;
+	margin-top: 2em;
+	
+}
+.main-row{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.outer-div{
+	display: flex;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.grid{
+	width: 23%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.first-grid img{
+	width: 50%;
+}
+.grid h3{
+	color:#dcdcdc;
+	font-size: 22px;
+	font-style: bold;
+	margin-bottom: 40px;
+}
+.grid p{
+	color:#FFF;
+	font-size: 16px;
+	font-style: bold;
+}
+.grid ul {
+	padding-left: 0px;
+}
+.grid ul li{
+	color:#FFF;
+	font-size: 18px;
+	list-style: none;
+}
+.grid ul li a{
+	color:#FFF;
+	font-size: 16px;
+	list-style: none;
+	text-decoration: none;
+}
+.grid ul li a:hover{
+	color: #151515;
+	text-decoration: none;
+}
+.social-div{
+	display: flex;
+}
+.social-div img{
+	width: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.footer-about{
+	display: table-caption;
+}
+.footer-call p a{
+	color: #e2e2e2;
+	text-decoration: none;
+}
+.footer-call p a:hover{
+	color: #151515;
+	text-decoration: none;
+}
+#banner img{
+	width: 100%;
+}
+.menubar{
+	width: 100%;
+    background: #369;
+	
+}
+.menubar ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 0px;
+    padding-left: 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menubar ul li{
+	color: #fff;
+    padding: 20px 50px;
+}
+.menubar ul li a{
+	color: #FFF;
+    font-style: normal;
+    text-decoration: none;
+	font-size: 20px;
+    font-weight: 800;
+}
+.menubar ul li a:hover{
+	color:#151515
+}
+.copyright{
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #969696;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+	border: 1px solid #c3c3c320;
+    border-radius: .25rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.categories-outer{
+	width: 100%;
+	display: flex;
+}
+.column-one {
+	width: 33%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0px 5px 9px 0px #efefef;
+}
+.column-two {
+	width: 100%;
+	float: left;
+	display: flex;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0px 5px 9px 0px #efefef;
+}
+.column-three {
+	width: 30%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 9px 0px #efefef;
+}
+.categories-outer img{
+	width: 90%;
+	height:220px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+.categories-outer .home-images{
+	width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+.card-title{
+	margin: 10px 0px;
+	text-align: center;
+	color: #369;
+	font-family: cursive;
+}
+.card-body{
+	padding: 10px 20px;
+}
+p{
+margin-top: 5%;
+color:  #369 ;
+}
+.buy-button{
+	color: #fff !important;
+    background-color: #369 !important;
+    border-color: #369 !important;
+	display: inline-block;
+    font-weight: 400;
+    color: #212529;
+     text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #0000;
+    border: 1px solid #0000;
+    padding: .375rem .75rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	width: 100%;
+	text-decoration: none;
+}
+.buy1-button{
+	margin-top: 30%;
+	color: #fff !important;
+    background-color:  #369!important;
+    border-color: #369 !important;
+	display: inline-block;
+    font-weight: 400;
+    color: #212529;
+     text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #0000;
+    border: 1px solid #0000;
+    padding: .375rem .75rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	width: 100%;
+	text-decoration: none;
+}
+.buy2-button{
+	
+	color: #fff !important;
+    background-color:  #369!important;
+    border-color: #369 !important;
+	display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #0000;
+    border: 1px solid #0000;
+    padding: .375rem .75rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	width: 30%;
+	text-decoration: none;
+
+}
+.buy-button:hover{
+	color: #fff;
+    background-color: #0069d9 !important;
+    border-color: #0062cc !important;
+	cursor: pointer !important;
+}
+.buy2-button:hover{
+	color: #fff;
+    background-color: #0069d9 !important;
+    border-color: #0062cc !important;
+	cursor: pointer !important;
+}
+
+.table{
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.table tr{
+	border: 1px solid grey;
+	box-shadow: -3px 3px 11px 1px #f3f3f3;
+	border-radius: 5px;
+}
+.table tr td{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 5px;
+
+}
+.table tr td .combo-img{
+	width: 250px;
+	height:220px;
+	border-radius: 5px;
+}
+.desktop-view{}
+.mobile-view{display: none;}
+.custom-img{
+	width: 60%;
+}
+.custom-container{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.custom-feedback{
+	width: 100%;
+}
+/* Media query for tablet layout */ 
+
+@media only screen and (max-width: 768px) {
+	.menubar ul {
+		list-style: none;
+		margin: 10px 0px;
+		padding-left: 0px;
+		display: contents;
+	}
+	.outer-div{
+		display: block;
+	}
+	.menubar ul li {
+		color: #fff;
+		padding: 20px 10px;
+	}
+	.grid {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}	
+	.column-one{
+		width: 50%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.card-body{padding: 10px;}
+	.desktop-view{display: none;}
+	.mobile-view{display: block;}
+	.mobile-view h4{text-align: center;}
+	.card-title{font-size: 14px;}
+	.buy-button{font-size: 14px;}
+	.custom-img{width: 100%;}
+	.custom-feedback{width: 95%;margin-left: auto;margin-right: auto;}
+	.col-75 input[type="text" i]{width: 95%;}
+	.col-75 input[type="email" i]{width: 95%;}
+	textarea{height: 200px;width: 95%;margin-top: 8px;}
+}
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+	clear: left;
+	margin-top: 4em;
+}
+
+
+
+
+/* Media query for desktop layout */
+
+@media only screen and (min-width: 769px) {
+ 
+/* Style specifies width for container */ 
+#container {
+	width: 100%;
+}
+
+
+h4
+{
+text-align: center;
+color: #d11232;
+font-family:cursive;
+  font-size: 200%;
+}
+h5{
+	text-align: center;
+	color: rgb(0, 0, 0);
+	margin-left: 15px;
+	margin-right: 15px;
+	font-family:cursive;
+	font-size: 25px;
+}
+.hr{
+	color: #6e1927;
+	border: 3px solid;
+	WIDTH: 80%;
+
+}
+input[type=text], select, textarea {    
+	width: 60%;    
+	padding: 12px;    
+	border: 1px solid rgb(70, 68, 68);    
+	border-radius: 4px;    
+	resize: vertical;    
+  }    
+  input[type=email], select, textarea {    
+	width: 60%;    
+	padding: 12px;    
+	border: 1px solid rgb(70, 68, 68);    
+	border-radius: 4px;    
+	resize: vertical;    
+  }    
+  .text-right{
+	  text-align: right;
+  }
+	  
+  label {    
+	padding: 12px 12px 12px 0;    
+	display: inline-block;    
+  }    
+	  
+  input[type=submit] {    
+	background-color: rgb(37, 116, 161);    
+	color: white;    
+	padding: 20px 40px;    
+	border: none;    
+	border-radius: 4px;    
+	cursor: pointer;    
+	float: right; 
+	}      	  
+  .container {    
+	border-radius: 5px;    
+	background-color: #f2f2f2;    
+	padding: 20px;    
+  }    
+	  
+  .col-25 {    
+	float: left;    
+	width: 25%;    
+	margin-top: 6px;    
+  }    
+	  
+  .col-75 {    
+	float: left;    
+	width: 75%;    
+	margin-top: 6px;    
+  }    
+	  
+  .row:after {    
+	content: "";    
+	display: table;    
+	clear: both;    
+  }
+
+
+/* Style rules for pseudo-classes */ 
+
+/* Style specifies border, box shadow, and margins for the main element */
+main {
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+}
